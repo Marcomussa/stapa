@@ -83,10 +83,10 @@ h6 {
 .opacity-05 {
     opacity: .05;
 }
-/* header */
+/* header 
 header .navbar-brand img {
     max-height: 30px;
-}
+}*/
 header .btn.btn-rounded.btn-very-small{
     font-size: 12px;
     font-weight: 600;
