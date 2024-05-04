@@ -2818,8 +2818,8 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 .marquees-text {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
-  -webkit-animation: example1 50s linear infinite;
-  animation: example1 50s linear infinite;
+  -webkit-animation: example1 20s linear infinite;
+  animation: example1 20s linear infinite;
   width: 100%;
 }
 .looping-wrapper {
@@ -3203,8 +3203,12 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
     06. Background and border
 ====================================== */
 /* Background color */
+.border-bottom-span:hover {
+  background-color: #485AFF !important;
+}
+
 .bg-base-color {
-  background-color: var(--base-color);
+  background-color: #485AFF;
 }
 .bg-dark-gray,
 .bg-dark-gray:focus {
@@ -19269,4 +19273,19 @@ footer .footer-navbar .nav-item:last-child a {
 .btn-contact:hover {
   background-color: #aa823d !important;
   transform: scale(0.9)
+}
+
+@media only screen and (max-width: 450px){
+  .row {
+    padding-left: 0px !important;
+  }
+  .row > * {
+    padding-left: 0px !important;
+  }
+  body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.animation-float.sm-mb-50px{
+    order: 2;
+  }
+  body > div.page-layout > section:nth-child(4) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start {
+    order: 1;
+  }
 }
