@@ -51,6 +51,12 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.text-gradient-orange-blue {
+    background-image: linear-gradient(to right, #485AFF, #485AFF, #485AFF, #485AFF, #485AFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* btn */
 .btn {
     font-weight: 600;

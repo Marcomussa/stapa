@@ -46,7 +46,7 @@ Table of contents
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #2946f3;
+  --base-color: #485AFF;
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
@@ -577,6 +577,31 @@ b, strong {
   line-height: inherit;
 }
 /* Text color */
+.text-blue {
+  color: #485AFF;
+}
+.text-light-blue {
+  color: #BCD7ED;
+}
+.text-orange {
+  color: #AA823D
+}
+.text-light-white{
+  color: #FCF4ED;
+}
+.bg-blue {
+  background: #485AFF;
+}
+.bg-light-blue {
+  background:#BCD7ED;
+}
+.bg-orange {
+  background: #AA823D;
+}
+.bg-light-white{
+  background: #FCF4ED;
+}
+
 .text-white, .btn-link.text-white, a.text-white-hover:hover {
   color: var(--white);
 }
@@ -584,7 +609,7 @@ b, strong {
   color: var(--base-color) !important;
 }
 .text-base-color, .btn-link.text-base-color {
-  color: var(--base-color);
+  color: #485AFF;
 }
 .text-black, .btn-link.text-black, a.text-black-hover:hover {
   color: var(--black);
@@ -631,9 +656,7 @@ b, strong {
 .text-majorelle-blue {
   color: var(--majorelle-blue);
 }
-.text-orange {
-  color: var(--orange);
-}
+
 .text-crusoe-green {
   color: var(--crusoe-green);
 }
@@ -3262,9 +3285,9 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 .bg-jade {
   background-color: var(--jade);
 }
-.bg-orange {
+/* .bg-orange {
   background-color: var(--orange);
-}
+} */
 .bg-light-majorelle-blue {
   background-color: var(--light-majorelle-blue);
 }
@@ -7100,7 +7123,7 @@ header.sticky .navbar.disable-fixed {
   display: none;
 }
 .navbar .navbar-nav .nav-item:hover .nav-link, .navbar .navbar-nav .nav-item.active .nav-link {
-  opacity: 0.6;
+  color: var(--base-color) !important;
 }
 .navbar .navbar-nav .nav-item .nav-link.active {
   opacity: 0.6;
@@ -19232,4 +19255,18 @@ footer .footer-navbar .nav-item:last-child a {
 }
 .footer-demo img {
   max-height: 55px !important;
+}
+
+.nav-item a:hover {
+  color: var(--base-color) !important;
+}
+
+.btn-contact {
+  transition: transform 0.3s ease;
+  font-size: 16px  !important;
+}
+
+.btn-contact:hover {
+  background-color: #aa823d !important;
+  transform: scale(0.9)
 }
