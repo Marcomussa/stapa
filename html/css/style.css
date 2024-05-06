@@ -19281,11 +19281,27 @@ footer .footer-navbar .nav-item:last-child a {
   }
   .row > * {
     padding-left: 0px !important;
+    padding-right: 0px !important;
   }
   body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.animation-float.sm-mb-50px{
     order: 2;
   }
   body > div.page-layout > section:nth-child(4) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start {
     order: 1;
+  }
+  body > div.page-layout > section:nth-child(5) {
+    padding-bottom: 0px !important;
+  }
+  body > div.page-layout > section.position-relative.background-position-center-top.xs-ps-15px.xs-pe-15px.overflow-hidden > div.container.bg-white.border-radius-6px.box-shadow-double-large > div {
+    padding-right: 0px !important;
+  }
+  .outside-box-left-25 {
+    margin-left: 0px !important;
+  }
+  body > div.page-layout > section.background-position-center-top.pb-0 > div > div > div.col-lg-6.md-mb-50px.animation-float.text-center {
+    order: 1;
+  }
+  body > div.page-layout > section.background-position-center-top.overflow-hidden {
+    padding-bottom: 0px !important;
   }
 }
