@@ -19276,13 +19276,8 @@ footer .footer-navbar .nav-item:last-child a {
 }
 
 @media only screen and (max-width: 450px){
-  .row {
-    padding-left: 0px !important;
-  }
-  .row > * {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
+  
+  
   body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.animation-float.sm-mb-50px{
     order: 2;
   }
