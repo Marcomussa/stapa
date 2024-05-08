@@ -150,18 +150,18 @@
                             <form id="contact-form-data">
                                 <div class="position-relative form-group mb-20px">
                                     <span class="form-icon"><i class="bi bi-person icon-extra-medium"></i></span>
-                                    <input class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required" type="text" name="name" placeholder="Nombre y Apellido*" id="name-form">
+                                    <input class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required" type="text" name="name" placeholder="Nombre y Apellido*" id="name-form" required>
                                 </div>
                                 <div class="position-relative form-group mb-20px">
                                     <span class="form-icon"><i class="bi bi-envelope icon-extra-medium"></i></span>
-                                    <input class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required" type="email" name="email" placeholder="Email*" id="email-form">
+                                    <input class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required" type="email" name="email" placeholder="Email*" id="email-form" required>
                                 </div>
                                 <div class="position-relative form-group form-textarea mt-15px mb-25px"> 
-                                    <textarea class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required" name="comment" placeholder="Mensaje*" rows="4" id="text-form"></textarea>
+                                    <textarea class="ps-0 border-radius-0px fs-17 bg-transparent border-color-transparent-white-light placeholder-medium-gray form-control required" name="comment" placeholder="Mensaje*" rows="4" id="text-form" required></textarea>
                                     <span class="form-icon"><i class="bi bi-chat-square-dots icon-extra-medium"></i></span>
-                                    <input type="hidden" name="redirect" value="">
+                                    <input type="hidden" name="redirect" value="">´
                                     <div class="g-recaptcha mt-2" data-sitekey="6LehqdApAAAAAGWumFz9Wt0CyHxwex5cYxwzGyg2"></div>
-                                    <button class="btn btn-small btn-contact bg-orange text-white ls-1px mt-30px submit w-100 btn-round-edge-small" type="submit" id="submit-mainSection">Enviar</button>
+                                    <button class="btn btn-small btn-contact bg-orange text-white ls-1px mt-30px w-100 btn-round-edge-small" type="submit" id="submit-mainSection">Enviar</button>
                                     <div class="form-results mt-20px d-none"></div>
                                 </div>
                                 <span class="text-white opacity-3 fs-14 lh-22 d-block">Acepto los términos y condiciones y entiendo que mis datos se conservarán de forma segura de acuerdo con la política de privacidad.</span>
@@ -228,12 +228,13 @@
         </div>
         <!-- end scroll progress -->
         <!-- javascript libraries -->
-        <script src="html/js/form.js"></script>
-        <script type="text/javascript" src="html/js/jquery.js"></script>
-        <script type="text/javascript" src="html/js/vendors.min.js"></script>
-        <script type="text/javascript" src="html/js/main.js"></script>
+        
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript" src="html/js/jquery.js"></script>
+        <script type="text/javascript" src="html/js/vendors.min.js"></script>
+        <script type="text/javascript" src="html/js/main.js"></script>
+        <script src="html/js/form.js"></script>
     </body>
 </html>

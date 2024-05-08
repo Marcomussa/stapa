@@ -7,9 +7,9 @@ const submitBTN = document.getElementById("submit-mainSection");
 const serviceID = "service_68yu6nh"
 const templateID = "template_27p7nbn"
 
+emailjs.init("w0qdp6mhuSS8BSVoY");
+
 document.addEventListener("DOMContentLoaded", () => {
-    emailjs.init("w0qdp6mhuSS8BSVoY");
-    
     contactForm.addEventListener('submit', function (event) {
         event.preventDefault()
 
@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     clearInterval(timerInterval);
                 },
             }).then((result) => {
-                /* Read more about handling dismissals below */
                 if (result.dismiss === Swal.DismissReason.timer) {
                     console.log("I was closed by the timer");
                 }
@@ -45,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 nameForm: nameForm.value,
                 email: email.value,
                 message: message.value,
-                product: product.value
             };
 
             emailjs.send(serviceID, templateID, templateParams)
@@ -59,6 +57,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     submitBTN.innerText = "Enviado!";
                     submitBTN.setAttribute("data-text", "Enviado!");
+
+                    nameForm.value = "";
+                    email.value = "";
+                    phone.value = "";
+                    message.value = "";
+                    grecaptcha.reset();
 
                 }, function (error) {
                     Swal.fire({
