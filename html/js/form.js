@@ -60,7 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     nameForm.value = "";
                     email.value = "";
-                    phone.value = "";
                     message.value = "";
                     grecaptcha.reset();
 
