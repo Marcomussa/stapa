@@ -19275,9 +19275,15 @@ footer .footer-navbar .nav-item:last-child a {
   transform: scale(0.9)
 }
 
+.fa-angle-down::before {
+  margin-left: 5px;
+}
+
+.fa-angle-down::after {
+  display: none;
+}
+
 @media only screen and (max-width: 450px){
-  
-  
   body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.animation-float.sm-mb-50px{
     order: 2;
   }
