@@ -1,6 +1,7 @@
 const contactForm = document.getElementById("contact-form-data")
 const nameForm = document.getElementById("name-form")
 const email = document.getElementById("email-form")
+console.log(email)
 const message = document.getElementById("text-form")
 const submitBTN = document.getElementById("submit-mainSection");
 
