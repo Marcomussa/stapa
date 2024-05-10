@@ -50,19 +50,37 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav"> 
                             <ul class="navbar-nav alt-font"> 
-                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="nosotras.html" class="nav-link">Nosotras</a></li>
-                                <li class="nav-item"><a href="producto.html" class="nav-link">Producto</a></li>
-                                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                                <li class="nav-item dropdown dropdown-with-icon">
+                                    <a href="producto.html" class="nav-link">PRODUCTO <i class="fa-solid fa-angle-down dropdown-toggle"></i></a>
+                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li>
+                                            <a href="producto.html">
+                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
+                                                <div class="submenu-icon-content">
+                                                    <span>Placas</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="producto.html">
+                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
+                                                <div class="submenu-icon-content">
+                                                    <span>Diseña tu Producto</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="nosotras.html" class="nav-link">NOSOTRAS</a></li>
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link">SUSTENTABILIDAD</a></li>
+                                <li class="nav-item"><a href="contacto.html" class="nav-link" style="color: var(--base-color) !important;">CONTACTO</a></li>
+                                
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto ms-auto">
-                        <div class="header-icon">
-                            <div class="d-none d-xl-inline-block me-25px"><a href="tel:1800222000" class="alt-font widget-text fw-600"><i class="feather icon-feather-phone-outgoing me-10px"></i>1 800 222 000</a></div>
-                            
-                        </div>
-                    </div>
+                    
                 </div>
             </nav>
             <!-- end navigation -->
