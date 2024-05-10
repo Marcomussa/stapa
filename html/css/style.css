@@ -46,7 +46,7 @@ Table of contents
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #355baa;
+  --base-color: #485AFF;
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
@@ -19283,6 +19283,14 @@ footer .footer-navbar .nav-item:last-child a {
   display: none;
 }
 
+body > div.page-layout > section.cover-background.position-relative.ipad-top-space-margin > div.container.position-relative.pb-2 {
+  margin-top: 75px;
+}
+
+header .left-nav .navbar-nav:before {
+  display: none;
+}
+
 @media only screen and (max-width: 450px){
   body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.animation-float.sm-mb-50px{
     order: 2;
@@ -19304,5 +19312,8 @@ footer .footer-navbar .nav-item:last-child a {
   }
   body > div.page-layout > section.background-position-center-top.overflow-hidden {
     padding-bottom: 0px !important;
+  }
+  #mCSB_1_container > ul > li.nav-item.dropdown.dropdown-with-icon.active > a > i {
+    display: none !important;
   }
 }
