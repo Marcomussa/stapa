@@ -598,6 +598,13 @@ b, strong {
 .bg-orange {
   background: #AA823D;
 }
+.bg-red-stapa{
+  background: #EB3A54;
+}
+.text-red-stapa{
+  color: #EB3A54;
+}
+
 .bg-light-white{
   background: #FCF4ED;
 }
@@ -9436,7 +9443,7 @@ button:focus {
 }
 .accordion .accordion-item .accordion-header .accordion-title i {
   position: absolute;
-  top: 50%;
+  top: 57.5%;
   right: 0;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -13308,7 +13315,7 @@ canvas {
 /* Pricing table style 04 */
 .pricing-table-style-04 .accordion-item {
   border-radius: 5px !important;
-  padding: 16px 35px;
+  padding: 22px 35px;
 }
 .pricing-table-style-04 .accordion-item .accordion-body {
   padding: 10px 0;
@@ -19275,10 +19282,6 @@ footer .footer-navbar .nav-item:last-child a {
   transform: scale(0.9)
 }
 
-.fa-angle-down::before {
-  margin-left: 5px;
-}
-
 .fa-angle-down::after {
   display: none;
 }
@@ -19289,6 +19292,10 @@ body > div.page-layout > section.cover-background.position-relative.ipad-top-spa
 
 header .left-nav .navbar-nav:before {
   display: none;
+}
+
+body > div.page-layout > section.bg-base-color.position-relative {
+  margin-top: 150px;
 }
 
 @media only screen and (max-width: 450px){
@@ -19315,5 +19322,14 @@ header .left-nav .navbar-nav:before {
   }
   #mCSB_1_container > ul > li.nav-item.dropdown.dropdown-with-icon.active > a > i {
     display: none !important;
+  }
+  .dropdown-product:before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px){
+  .page-title-center-alignment {
+    padding-bottom: 0px !important;
   }
 }
