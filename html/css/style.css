@@ -19298,6 +19298,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   margin-top: 150px;
 }
 
+
 @media only screen and (max-width: 450px){
   body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.animation-float.sm-mb-50px{
     order: 2;
@@ -19325,6 +19326,12 @@ body > div.page-layout > section.bg-base-color.position-relative {
   }
   .dropdown-product:before {
     display: none;
+  }
+  body > div.page-layout > section.pt-5 {
+    padding-top: 100px !important;
+  }
+  body > div.page-layout > section.background-position-center-top.bg-gradient-top-very-light-gray.position-relative.sm-pb-20 {
+    padding-bottom: 50px !important;
   }
 }
 
