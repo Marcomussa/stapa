@@ -19302,6 +19302,10 @@ body > div.page-layout > section.bg-base-color.position-relative {
   margin-left: 5px;
 }
 
+.contact-btn {
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 450px){
   #mCSB_1_container > ul > li.nav-item.dropdown.dropdown-with-icon > a > i {
     display: none !important;
