@@ -10721,7 +10721,7 @@ blockquote footer {
   height: 42px;
   position: absolute;
   border-radius: 100%;
-  right: 8px;
+  right: 15px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
