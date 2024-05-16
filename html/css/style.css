@@ -9876,7 +9876,7 @@ blockquote footer {
 }
 .btn.btn-extra-large {
   font-size: 16px;
-  padding: 24px 46px;
+  padding: 24px 26px;
 }
 .btn.btn-large {
   font-size: 14px;
@@ -19349,4 +19349,12 @@ body > div.page-layout > section.bg-base-color.position-relative {
   .page-title-center-alignment {
     padding-bottom: 0px !important;
   }
+}
+
+body > div.page-layout > section.bg-base-color.position-relative > div.container,
+body > div.page-layout > section:nth-child(3) > div, 
+body > div.page-layout > section:nth-child(4) > div,
+body > div.page-layout > section:nth-child(5) > div,
+body > div.page-layout > section.background-position-center-top.overflow-hidden > div {
+  max-width: 1500px !important;
 }
