@@ -13336,7 +13336,7 @@ canvas {
 }
 .pricing-table-style-04 .accordion-item.active-accordion {
   padding: 30px 40px;
-  background-color: var(--base-color) !important;
+  background-color: #485AFF !important;
   color: var(--white) !important;
 }
 .pricing-table-style-04 .accordion-item.active-accordion .accordion-header .accordion-title {
@@ -19319,9 +19319,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   body > div.page-layout > section:nth-child(5) {
     padding-bottom: 0px !important;
   }
-  body > div.page-layout > section.position-relative.background-position-center-top.xs-ps-15px.xs-pe-15px.overflow-hidden > div.container.bg-white.border-radius-6px.box-shadow-double-large > div {
-    padding-right: 0px !important;
-  }
+ 
   .outside-box-left-25 {
     margin-left: 0px !important;
   }
@@ -19343,6 +19341,32 @@ body > div.page-layout > section.bg-base-color.position-relative {
   body > div.page-layout > section.background-position-center-top.bg-gradient-top-very-light-gray.position-relative.sm-pb-20 {
     padding-bottom: 50px !important;
   }
+  .main-banner-container {
+    margin-top: 0px;
+    background-image: url("images/demo-seo-agency-vertical-line-bg.svg");
+  }
+  body > div.page-layout > section:nth-child(4) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start > a > span, 
+  body > div.page-layout > section:nth-child(3) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start > a > span, 
+  body > div.page-layout > section:nth-child(5) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start > a > span {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  body > div.page-layout > section.bg-base-color.position-relative {
+    margin-top: 0px;
+  }
+  .h-250px{
+    height: 75px !important;
+  }
+  body > div.page-layout > section.pb-0 > div > div > div.col-md-7.position-relative {
+    padding-bottom: 50px;
+  }
+  .caracteristicas-container {
+    width: 100% !important;
+  }
+  .cars-num {
+    bottom: 0px;
+    font-size: 70px;
+  }
 }
 
 @media only screen and (min-width: 500px){
@@ -19356,4 +19380,11 @@ body > div.page-layout > section:nth-child(4) > div,
 body > div.page-layout > section:nth-child(5) > div,
 body > div.page-layout > section.background-position-center-top.overflow-hidden > div {
   max-width: 1500px !important;
+}
+
+.main-banner-container {
+  background-image: url('images/main-banner.png');
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
