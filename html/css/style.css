@@ -605,6 +605,10 @@ b, strong {
   color: #EB3A54;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .bg-light-white{
   background: #FCF4ED;
 }
@@ -4716,6 +4720,9 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 .pb-70px {
   padding-bottom: 70px !important;
 }
+.pb-100px {
+  padding-bottom: 100px !important;
+}
 .pb-1 {
   padding-bottom: 1% !important;
 }
@@ -7992,6 +7999,9 @@ header a.widget-text:hover {
   display: none;
 }
 /* Header push menu */
+ov-hidden {
+  overflow: hidden !important;
+}
 .show-menu {
   overflow: hidden;
 }
@@ -12209,14 +12219,14 @@ blockquote footer {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.icon-with-text-style-11:hover {
+.icon-with-text-style-11 {
   -webkit-transform: translateY(-15px);
   transform: translateY(-15px);
 }
-.icon-with-text-style-11:hover .text-box-hover {
+.icon-with-text-style-11 .text-box-hover {
   opacity: 1;
 }
-.icon-with-text-style-11:hover .text-box {
+.icon-with-text-style-11 .text-box {
   opacity: 0;
 }
 /* Image gallery style 01 */
@@ -19360,9 +19370,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   body > div.page-layout > section.pb-0 > div > div > div.col-md-7.position-relative {
     padding-bottom: 50px;
   }
-  .caracteristicas-container {
-    width: 100% !important;
-  }
+  
   .cars-num {
     bottom: 0px;
     font-size: 70px;
@@ -19378,15 +19386,39 @@ body > div.page-layout > section.bg-base-color.position-relative {
   }
 }
 
-body > div.page-layout > section:nth-child(3) > div, 
-body > div.page-layout > section:nth-child(4) > div,
-body > div.page-layout > section:nth-child(5) > div,
-body > div.page-layout > section.background-position-center-top.overflow-hidden > div {
-  max-width: 1500px !important;
+.caracteristicas-container {
+  width: 100% !important;
+}
+
+@media only screen and (min-width: 1600px){
+  body > div.page-layout > section:nth-child(3) > div, 
+  body > div.page-layout > section:nth-child(4) > div,
+  body > div.page-layout > section:nth-child(5) > div,
+  body > div.page-layout > section.background-position-center-top.overflow-hidden > div {
+    max-width: 1800px !important;
+  }
+}
+
+@media only screen and (max-width: 1600px){
+  body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.text-center.text-md-start.appear.anime-child.anime-complete {
+    margin: 20px 0px;
+  }
 }
 
 .main-banner-container {
   margin-top: 100px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 1730px){
+  .caracteristicas-prod {
+    font-size: 150px;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .caracteristicas-prod {
+    font-size: 100px;
+  }
 }
