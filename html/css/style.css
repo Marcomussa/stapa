@@ -13353,7 +13353,7 @@ canvas {
   color: #485AFF !important;
 }
 .pricing-table-style-04 .accordion-item.active-accordion .icon-round {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   color: var(--white) !important;
 }
 
@@ -19421,4 +19421,8 @@ body > div.page-layout > section.bg-base-color.position-relative {
   .caracteristicas-prod {
     font-size: 100px;
   }
+}
+
+body > div.page-layout > section.bg-gradient-top-very-light-gray.position-relative.overflow-hidden {
+  padding-top: 200px !important;
 }
