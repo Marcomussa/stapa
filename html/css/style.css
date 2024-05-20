@@ -13346,11 +13346,11 @@ canvas {
 }
 .pricing-table-style-04 .accordion-item.active-accordion {
   padding: 30px 40px;
-  background-color: #485AFF !important;
-  color: var(--white) !important;
+  background-color: #f0f0f0 !important;
+  color: #485AFF !important;
 }
 .pricing-table-style-04 .accordion-item.active-accordion .accordion-header .accordion-title {
-  color: var(--white) !important;
+  color: #485AFF !important;
 }
 .pricing-table-style-04 .accordion-item.active-accordion .icon-round {
   background-color: rgba(0, 0, 0, 0.4);
