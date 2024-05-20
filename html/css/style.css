@@ -580,6 +580,9 @@ b, strong {
 .text-blue {
   color: #485AFF;
 }
+.bg-aqua {
+  background-color:#D5E9ED;
+}
 .text-light-blue {
   color: #BCD7ED;
 }
