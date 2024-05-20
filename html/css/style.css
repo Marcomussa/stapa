@@ -19367,6 +19367,9 @@ body > div.page-layout > section.bg-base-color.position-relative {
     bottom: 0px;
     font-size: 70px;
   }
+  .main-banner-container {
+    background-image: none !important;
+  }
 }
 
 @media only screen and (min-width: 500px){
@@ -19383,7 +19386,6 @@ body > div.page-layout > section.background-position-center-top.overflow-hidden 
 }
 
 .main-banner-container {
-  background-image: url('images/main-banner.png');
   margin-top: 100px;
   background-repeat: no-repeat;
   background-size: contain;
