@@ -5119,6 +5119,9 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 .mt-70px {
   margin-top: 70px !important;
 }
+.mt-100px {
+  margin-top: 100px !important;
+}
 .mt-1 {
   margin-top: 1% !important;
 }
@@ -19425,4 +19428,9 @@ body > div.page-layout > section.bg-base-color.position-relative {
 
 body > div.page-layout > section.bg-gradient-top-very-light-gray.position-relative.overflow-hidden {
   padding-top: 200px !important;
+}
+
+.sustentabilidad-banner {
+  padding: 200px 0px !important;
+  background-size: cover;
 }
