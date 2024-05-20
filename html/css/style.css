@@ -19388,5 +19388,5 @@ body > div.page-layout > section.background-position-center-top.overflow-hidden 
 .main-banner-container {
   margin-top: 100px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
