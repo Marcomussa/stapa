@@ -19323,6 +19323,22 @@ body > div.page-layout > section.bg-base-color.position-relative {
 }
 
 @media only screen and (max-width: 450px){
+  .card2 {
+    margin: 20px 0px;
+  }
+  h5.card-title {
+    font-weight: 800;
+    font-size: 24px !important;
+  }
+  .megaphone {
+    height: 40%
+  }
+  .megaphone-data {
+    margin-top: -150px;
+  }
+  .contactanos-sust {
+    text-align: center
+  }
   #mCSB_1_container > ul > li.nav-item.dropdown.dropdown-with-icon > a > i {
     display: none !important;
   }
