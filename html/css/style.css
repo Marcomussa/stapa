@@ -19437,3 +19437,7 @@ body > div.page-layout > section.bg-gradient-top-very-light-gray.position-relati
   padding: 200px 0px !important;
   background-size: cover;
 }
+
+.card2 {
+  border-radius: 10px;
+}
