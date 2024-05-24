@@ -19322,7 +19322,32 @@ body > div.page-layout > section.bg-base-color.position-relative {
   border-radius: 5px;
 }
 
+.product-order-chart {
+  padding-bottom: 100px;
+}
+
 @media only screen and (max-width: 450px){
+  body > div.page-layout > section.page-title-center-alignment.ipad-top-space-margin.background-position-center-bottom.cover-background.position-relative > div.container > div > div.col-md-6.text-right.position-relative.page-title-large {
+    text-align: center !important;
+  }
+  .product-order-chart {
+    padding-bottom: 0px !important;
+  }
+  body > div.page-layout > section.page-title-center-alignment.ipad-top-space-margin.background-position-center-bottom.cover-background.position-relative > div.container > div > div:nth-child(2) {
+    text-align: center !important;
+  }
+  body > div.page-layout > section.background-position-center-top.cover-background.pt-0 {
+    padding-bottom: 0px !important;}
+  .sust-cont {
+    margin-top: 0px !important;
+  }
+  .conoce-mas-container {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .iso {
+    width: 50% !important;
+  }
   .card2 {
     margin: 20px 0px;
   }
@@ -19331,7 +19356,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
     font-size: 24px !important;
   }
   .megaphone {
-    height: 40%
+    height: 40% !important;
   }
   .megaphone-data {
     margin-top: -150px;
@@ -19342,11 +19367,8 @@ body > div.page-layout > section.bg-base-color.position-relative {
   #mCSB_1_container > ul > li.nav-item.dropdown.dropdown-with-icon > a > i {
     display: none !important;
   }
-  body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.animation-float.sm-mb-50px{
+  body > div.page-layout > section:nth-child(4) > div > div > div.col-md-6.sm-mb-50px {
     order: 2;
-  }
-  body > div.page-layout > section:nth-child(4) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start {
-    order: 1;
   }
   body > div.page-layout > section:nth-child(5) {
     padding-bottom: 0px !important;
