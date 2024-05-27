@@ -37,6 +37,8 @@ Table of contents
 ====================================== */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 :root {
   --alt-font: "Plus Jakarta Sans", sans-serif;
   --primary-font: "Inter", sans-serif;
@@ -88,6 +90,9 @@ Table of contents
 /* ===================================
     03. Reset
 ====================================== */
+.manrope {
+  font-family: "Manrope";
+}
 .alt-font {
   font-family: var(--alt-font);
 }
@@ -9459,7 +9464,7 @@ button:focus {
 }
 .accordion .accordion-item .accordion-header .accordion-title i {
   position: absolute;
-  top: 57.5%;
+  top: 50%;
   right: 0;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -13352,7 +13357,7 @@ canvas {
 }
 .pricing-table-style-04 .accordion-item.active-accordion {
   padding: 30px 40px;
-  background-color: #f0f0f0 !important;
+  background-color: rgba(72, 90, 255, 0.1) !important;
   color: #485AFF !important;
 }
 .pricing-table-style-04 .accordion-item.active-accordion .accordion-header .accordion-title {
@@ -19302,10 +19307,6 @@ footer .footer-navbar .nav-item:last-child a {
   display: none;
 }
 
-body > div.page-layout > section.cover-background.position-relative.ipad-top-space-margin > div.container.position-relative.pb-2 {
-  margin-top: 75px;
-}
-
 header .left-nav .navbar-nav:before {
   display: none;
 }
@@ -19326,7 +19327,27 @@ body > div.page-layout > section.bg-base-color.position-relative {
   padding-bottom: 100px;
 }
 
+.accordion-title {
+  color: #485AFF;
+}
+
+.historia-container {
+  text-align: right;
+}
+
 @media only screen and (max-width: 450px){
+  .historia-container {
+    text-align: center;
+  }
+  .conoce-mas-prod {
+    text-align: center;
+  }
+  body > div.page-layout > section:nth-child(4) {
+    margin: 30px 0px;
+  }
+  .main-container {
+    padding-bottom: 0px !important;
+  }
   body > div.page-layout > section.page-title-center-alignment.ipad-top-space-margin.background-position-center-bottom.cover-background.position-relative > div.container > div > div.col-md-6.text-right.position-relative.page-title-large {
     text-align: center !important;
   }
@@ -19467,6 +19488,10 @@ body > div.page-layout > section.bg-base-color.position-relative {
   }
 }
 
+.conoce-mas-prod {
+  text-align: right;
+}
+
 body > div.page-layout > section.bg-gradient-top-very-light-gray.position-relative.overflow-hidden {
   padding-top: 200px !important;
 }
@@ -19478,4 +19503,13 @@ body > div.page-layout > section.bg-gradient-top-very-light-gray.position-relati
 
 .card2 {
   border-radius: 10px;
+}
+
+body > div.page-layout > section.pt-5 > div > div > div.col-lg-5.offset-lg-1.contact-form-style-03.appear.anime-child.anime-complete > form > div.position-relative.form-group.form-textarea.mb-0 > button {
+  background-color: #485AFF;
+}
+
+.main-container{
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
