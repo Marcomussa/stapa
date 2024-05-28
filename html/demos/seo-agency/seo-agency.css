@@ -2,14 +2,25 @@
     Crafto - Seo agency
 ====================================== */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+  font-family: "bahnschrift";
+  src: url("../../fonts/BAHNSCHRIFT.TTF");
+}
 /* variable */
 :root {      
-    --alt-font: 'Urbanist', sans-serif;
-    --primary-font: 'Atkinson Hyperlegible', sans-serif;
+    --alt-font: "Manrope", sans-serif;
+    --primary-font: "Manrope", sans-serif;
+    --secondary-font: "bahnschrift";
     --base-color: #4c46c0;
     --dark-gray: #2a2b3f;
     --medium-gray: #797a8c;
 }   
+
+.sec-font {
+    font-family: var(--secondary-font);
+}
 /* reset */
 body{
     font-size: 17px;

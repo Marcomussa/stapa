@@ -39,9 +39,22 @@ Table of contents
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+@font-face {
+  font-family: "bahnschrift";
+  src: url("../fonts/BAHNSCHRIFT.TTF");
+}
+
+.bahn {
+  font-family: "bahnschrift", sans-serif;
+}
+
+.manrope {
+  font-family: "Manrope";
+}
+
 :root {
-  --alt-font: "Plus Jakarta Sans", sans-serif;
-  --primary-font: "Inter", sans-serif;
+  --alt-font: "bahnschrift", sans-serif;
+  --primary-font: "Manrope", sans-serif;
 }
 
 /* ===================================
@@ -19336,6 +19349,12 @@ body > div.page-layout > section.bg-base-color.position-relative {
 }
 
 @media only screen and (max-width: 450px){
+  .prod-sec-2 {
+    padding-top: 0px !important;
+  }
+  body > div.page-layout > section.page-title-center-alignment.ipad-top-space-margin.background-position-center-bottom.cover-background.position-relative > div.container.mt-75px {
+    margin-top: 0px;
+  }
   .historia-container {
     text-align: center;
   }
@@ -19418,7 +19437,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   }
   .main-banner-container {
     margin-top: 0px;
-    background-image: url("images/demo-seo-agency-vertical-line-bg.svg");
+    background-image: url("../images/demo-seo-agency-vertical-line-bg.svg") !important;
   }
   body > div.page-layout > section:nth-child(4) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start > a > span, 
   body > div.page-layout > section:nth-child(3) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start > a > span, 
@@ -19440,8 +19459,9 @@ body > div.page-layout > section.bg-base-color.position-relative {
     bottom: 0px;
     font-size: 70px;
   }
-  .main-banner-container {
-    background-image: none !important;
+  
+  .main-container {
+    padding-top: 50px !important;
   }
 }
 
@@ -19492,8 +19512,12 @@ body > div.page-layout > section.bg-base-color.position-relative {
   text-align: right;
 }
 
-body > div.page-layout > section.bg-gradient-top-very-light-gray.position-relative.overflow-hidden {
-  padding-top: 200px !important;
+.our-team-sec {
+  margin-top: 75px;
+}
+
+.mt-75px {
+  margin-top: 75px;
 }
 
 .sustentabilidad-banner {
