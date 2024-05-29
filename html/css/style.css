@@ -625,6 +625,9 @@ b, strong {
 .text-red-stapa{
   color: #EB3A54;
 }
+.bg-gray-stapa {
+  background: #fdfeff;
+}
 
 .text-right {
   text-align: right;
@@ -632,6 +635,10 @@ b, strong {
 
 .bg-light-white{
   background: #FCF4ED;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-white, .btn-link.text-white, a.text-white-hover:hover {
@@ -19536,4 +19543,9 @@ body > div.page-layout > section.pt-5 > div > div > div.col-lg-5.offset-lg-1.con
 .main-container{
   padding-top: 100px;
   padding-bottom: 150px;
+}
+
+.sust-title {
+  opacity: 0.8;
+  font-size: 7rem !important;
 }
