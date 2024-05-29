@@ -231,29 +231,30 @@ video {
   font-weight: inherit;
 }
 h1, .h1 {
-  font-size: 4.375rem;
-  line-height: 4.375rem;
+  font-size: 4rem;
+  line-height: 4.6rem;
 }
 h2, .h2 {
-  font-size: 3.438rem;
-  line-height: 3.438rem;
+  font-size: 3rem;
+  line-height: 3.6rem;
 }
 h3, .h3 {
-  font-size: 2.813rem;
-  line-height: 3.125rem;
+  font-size: 2.3rem;
+  line-height: 2.8rem;
 }
 h4 {
-  font-size: 2.375rem;
-  line-height: 2.7rem;
+  font-size: 1.8rem;
+  line-height: 2.5em;
 }
 h5 {
-  font-size: 2rem;
-  line-height: 2.2rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 h6 {
-  font-size: 1.75rem;
-  line-height: 1.95rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
+
 /* Font custom */
 .font-style-italic {
   font-style: italic;
@@ -19396,8 +19397,9 @@ body > div.page-layout > section.bg-base-color.position-relative {
     width: 50% !important;
   }
   .card2 {
-    margin: 20px 0px;
+    margin: 30px 0px;
   }
+ 
   h5.card-title {
     font-weight: 800;
     font-size: 24px !important;
@@ -19482,12 +19484,18 @@ body > div.page-layout > section.bg-base-color.position-relative {
   width: 100% !important;
 }
 
-@media only screen and (min-width: 1600px){
+@media only screen and (min-width: 1200px){
   body > div.page-layout > section:nth-child(3) > div, 
   body > div.page-layout > section:nth-child(4) > div,
   body > div.page-layout > section:nth-child(5) > div,
   body > div.page-layout > section.background-position-center-top.overflow-hidden > div {
-    max-width: 1800px !important;
+    max-width: 1900px !important;
+  }
+}
+
+@media only screen and (max-width: 1700px){
+  body > div.page-layout > section.background-position-center-top.bg-gradient-top-very-light-gray.position-relative.sm-pb-20 {
+    padding-top: 0px !important;
   }
 }
 

@@ -79,22 +79,22 @@ body{
 }
 /* heading */
 h1 {
-    line-height: 4.375rem;
+    line-height: 4rem;
 }
 h2 {
-    line-height: 3.438rem;
+    line-height: 3rem;
 }
 h3 {
-    line-height: 2.813rem;
+    line-height: 2.3rem;
 }
 h4 {
-    line-height: 2.375rem;
+    line-height: 1.8em;
 }
 h5 {
-    line-height: 2rem;
+    line-height: 1.3rem;
 }
 h6 {
-    line-height: 1.75rem;
+    line-height: 1rem;
 }
 /* opacity */
 .opacity-05 {
@@ -131,7 +131,7 @@ footer .elements-social ul li:last-child {
 }
 /* page title */
 .page-title-large h1 {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     line-height: 4.2rem;
 }
 .page-title-large h2 {
