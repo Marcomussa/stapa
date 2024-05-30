@@ -231,19 +231,19 @@ video {
   font-weight: inherit;
 }
 h1, .h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 4.6rem;
 }
 h2, .h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 3.6rem;
 }
 h3, .h3 {
-  font-size: 2.3rem;
+  font-size: 1.6rem;
   line-height: 2.8rem;
 }
 h4 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 2.5em;
 }
 h5 {
@@ -251,9 +251,12 @@ h5 {
   line-height: 2rem;
 }
 h6 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1rem;
 }
+p{
+  font-size: 15px
+} 
 
 /* Font custom */
 .font-style-italic {
@@ -7079,11 +7082,8 @@ header .navbar-brand .default-logo {
 header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   visibility: hidden;
   opacity: 0;
-  width: 0;
 }
-header .navbar-brand img {
-  max-height: 46px;
-}
+
 header .header-top-bar {
   position: fixed;
   top: 0;
@@ -19324,6 +19324,18 @@ footer .footer-navbar .nav-item:last-child a {
   transform: scale(0.9)
 }
 
+.our-history-sec {
+  margin: 100px 0px;
+}
+
+.residuo-a-placas {
+  text-align: right;
+}
+
+.fa-brands {
+  font-size: 32px;
+}
+
 .fa-angle-down::after {
   display: none;
 }
@@ -19357,6 +19369,13 @@ body > div.page-layout > section.bg-base-color.position-relative {
 }
 
 @media only screen and (max-width: 450px){
+  .caracteristicas-main-container {
+    height: 225px !important;
+  }
+  body > div.page-layout > section.background-position-center-top.overflow-hidden.prod-sec-2 > div > div > div.residuo-a-placas.col-md-6 > h3,
+  body > div.page-layout > section.background-position-center-top.overflow-hidden.bg-gray-stapa.pt-0 > div > div > div.col-md-6.text-right > h3 {
+    text-align: center !important;
+  }
   body > div.page-layout > section:nth-child(5) > div > div > div:nth-child(2) > div > div:nth-child(1) > div.card-body > h5,
   body > div.page-layout > section:nth-child(5) > div > div > div:nth-child(3) > div > div:nth-child(1) > div.card-body > h5 {
     font-size: 20px !important;
@@ -19572,3 +19591,4 @@ body > div.page-layout > section.pt-5 > div > div > div.col-lg-5.offset-lg-1.con
 .sust-title {
   opacity: 0.8;
 }
+

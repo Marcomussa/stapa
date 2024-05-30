@@ -12,7 +12,7 @@
 /* Bootstrap overwrite css */
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1300px;
+    max-width: 1600px;
   }
 }
 @media (min-width: 992px) {
@@ -19692,7 +19692,7 @@
   header .navbar-brand .mobile-logo {
     visibility: visible !important;
     opacity: 1 !important;
-    width: auto !important;
+    
   }
   header .navbar-brand .mobile-logo:focus {
     outline: none;
