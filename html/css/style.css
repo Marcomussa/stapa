@@ -5154,6 +5154,9 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 .mt-100px {
   margin-top: 100px !important;
 }
+.mt-125px {
+  margin-top: 125px !important;
+}
 .mt-1 {
   margin-top: 1% !important;
 }
@@ -6936,8 +6939,7 @@ header.sticky.sticky-active .navbar-brand .alt-logo {
   width: auto;
 }
 header.sticky.sticky-active .navbar-brand .default-logo {
-  visibility: hidden;
-  opacity: 0;
+  
   width: 0;
 }
 header.sticky.sticky-active [data-header-hover=dark] {
@@ -19368,6 +19370,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   text-align: right;
 }
 
+
 @media only screen and (max-width: 450px){
   .caracteristicas-main-container {
     height: 225px !important;
@@ -19524,7 +19527,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   body > div.page-layout > section:nth-child(4) > div,
   body > div.page-layout > section:nth-child(5) > div,
   body > div.page-layout > section.background-position-center-top.overflow-hidden > div {
-    max-width: 1900px !important;
+    max-width: 1800px !important;
   }
 }
 
