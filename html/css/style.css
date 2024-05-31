@@ -19370,8 +19370,17 @@ body > div.page-layout > section.bg-base-color.position-relative {
   text-align: right;
 }
 
+@media only screen and (max-width: 1600px){
+  .main-container {
+    padding-left: 50px !important;
+  }
+}
+
 
 @media only screen and (max-width: 600px){
+  .main-container {
+    padding-left: 0px !important;
+  }
   .caracteristicas-main-container {
     height: 225px !important;
   }
