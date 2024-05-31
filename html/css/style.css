@@ -19371,7 +19371,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
 }
 
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 600px){
   .caracteristicas-main-container {
     height: 225px !important;
   }
@@ -19520,6 +19520,12 @@ body > div.page-layout > section.bg-base-color.position-relative {
 
 .caracteristicas-container {
   width: 100% !important;
+}
+
+@media only screen and (min-width: 1200px){
+ .xl-pl-30px {
+  padding-left: 50px;
+ }
 }
 
 @media only screen and (min-width: 1200px){
