@@ -61,7 +61,7 @@ Table of contents
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #485AFF;
+  --base-color: #393A97;
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
@@ -600,7 +600,7 @@ b, strong {
 }
 /* Text color */
 .text-blue {
-  color: #485AFF;
+  color: #393A97;
 }
 .bg-aqua {
   background-color:#D5E9ED;
@@ -615,7 +615,7 @@ b, strong {
   color: #FCF4ED;
 }
 .bg-blue {
-  background: #485AFF;
+  background: #393A97;
 }
 .bg-light-blue {
   background:#BCD7ED;
@@ -19363,11 +19363,23 @@ body > div.page-layout > section.bg-base-color.position-relative {
 }
 
 .accordion-title {
-  color: #485AFF;
+  color: var(--dark-gray);
+}
+
+.nav-item a {
+  font-size: 16px !important;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .historia-container {
-  text-align: right;
+  text-align: justify;
+}
+
+.espaciado-palabras {
+  word-spacing: 5px;
 }
 
 @media only screen and (max-width: 1600px){
@@ -19378,6 +19390,12 @@ body > div.page-layout > section.bg-base-color.position-relative {
 
 
 @media only screen and (max-width: 600px){
+  .main-subtitle {
+    font-size: 20px;
+  }
+  .navbar .container-fluid {
+    background: #d5e9ed;
+  }
   .main-container {
     padding-left: 0px !important;
   }
@@ -19491,9 +19509,13 @@ body > div.page-layout > section.bg-base-color.position-relative {
   body > div.page-layout > section.background-position-center-top.bg-gradient-top-very-light-gray.position-relative.sm-pb-20 {
     padding-bottom: 50px !important;
   }
+  body > div.page-layout > section.cover-background.position-relative.ipad-top-space-margin {
+    padding-bottom: 150px;
+  }
   .main-banner-container {
-    margin-top: 0px;
-    background-image: url("../images/demo-seo-agency-vertical-line-bg.svg") !important;
+    margin-top: 0px;  
+    padding-top: 0px !important;
+    background-position-x: center;
   }
   body > div.page-layout > section:nth-child(4) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start > a > span, 
   body > div.page-layout > section:nth-child(3) > div > div > div.col-lg-5.col-md-6.text-center.text-md-start > a > span, 
@@ -19517,13 +19539,19 @@ body > div.page-layout > section.bg-base-color.position-relative {
   }
   
   .main-container {
-    padding-top: 50px !important;
+    padding-top: 0px !important;
   }
 }
 
 @media only screen and (min-width: 500px){
   .page-title-center-alignment {
     padding-bottom: 0px !important;
+  }
+  .xl-mr-50px {
+    margin-right: 50px;
+  }
+  .xl-psides-100px {
+    padding: 0px 100px;
   }
 }
 
