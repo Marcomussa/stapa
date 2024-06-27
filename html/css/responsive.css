@@ -19004,7 +19004,7 @@
     display: none !important;
   }
   [data-mobile-nav-style=full-screen-menu] .navbar-full-screen-menu-inner {
-    background-image: linear-gradient(to right top, #0039e3, #4132e0, #5e28dd, #741bd9, #8600d4);
+    background: #AA823D;
     visibility: hidden;
     overflow: hidden !important;
     width: 100vw;

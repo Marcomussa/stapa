@@ -19382,6 +19382,10 @@ body > div.page-layout > section.bg-base-color.position-relative {
   word-spacing: 5px;
 }
 
+.xs-p-0px {
+  padding: 0px !important;
+}
+
 @media only screen and (max-width: 1600px){
   .main-container {
     padding-left: 50px !important;
@@ -19390,6 +19394,15 @@ body > div.page-layout > section.bg-base-color.position-relative {
 
 
 @media only screen and (max-width: 600px){
+  .sust-sub-cont {
+    margin-top: 0px !important;
+  }
+  .w-75px {
+    width: 50px !important;
+  }
+  .text-justify-xs {
+    text-align: justify;
+  }
   .main-subtitle {
     font-size: 20px;
   }
@@ -19399,8 +19412,11 @@ body > div.page-layout > section.bg-base-color.position-relative {
   .main-container {
     padding-left: 0px !important;
   }
+  .main-banner-container {
+    margin-top: 150px !important;
+  }
   .caracteristicas-main-container {
-    height: 225px !important;
+    height: 200px !important;
   }
   body > div.page-layout > section.background-position-center-top.overflow-hidden.prod-sec-2 > div > div > div.residuo-a-placas.col-md-6 > h3,
   body > div.page-layout > section.background-position-center-top.overflow-hidden.bg-gray-stapa.pt-0 > div > div > div.col-md-6.text-right > h3 {
@@ -19420,7 +19436,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
     padding-left: 30px !important;
   }
   .sust-title {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .prod-sec-2 {
     padding-top: 0px !important;
@@ -19459,7 +19475,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
     margin-bottom: 20px;
   }
   .iso {
-    width: 50% !important;
+    width: 150px !important;
   }
   .card2 {
     margin: 30px 0px;
@@ -19509,9 +19525,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   body > div.page-layout > section.background-position-center-top.bg-gradient-top-very-light-gray.position-relative.sm-pb-20 {
     padding-bottom: 50px !important;
   }
-  body > div.page-layout > section.cover-background.position-relative.ipad-top-space-margin {
-    padding-bottom: 150px;
-  }
+ 
   .main-banner-container {
     margin-top: 0px;  
     padding-top: 0px !important;
@@ -19562,6 +19576,9 @@ body > div.page-layout > section.bg-base-color.position-relative {
 @media only screen and (min-width: 1200px){
  .xl-pl-30px {
   padding-left: 50px;
+ }
+ .xl-plr-400px {
+  padding: 0px 400px;
  }
 }
 
@@ -19617,7 +19634,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
 }
 
 .sustentabilidad-banner {
-  padding: 200px 0px !important;
+  padding: 150px 0px 125px 0px !important;
   background-size: cover;
 }
 
