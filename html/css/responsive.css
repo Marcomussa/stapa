@@ -19004,7 +19004,7 @@
     display: none !important;
   }
   [data-mobile-nav-style=full-screen-menu] .navbar-full-screen-menu-inner {
-    background: #AA823D;
+    background: darkgray;
     visibility: hidden;
     overflow: hidden !important;
     width: 100vw;

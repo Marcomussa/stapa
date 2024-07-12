@@ -9187,10 +9187,7 @@ button:focus {
   font-size: 2.8rem;
   line-height: 3rem;
 }
-.page-title-large h2 {
-  font-size: 16px;
-  line-height: 22px;
-}
+
 .page-title-medium h1 {
   font-size: 2rem;
   line-height: 2.2rem;
@@ -19376,6 +19373,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
 
 .historia-container {
   text-align: justify;
+  padding-left: 50px;
 }
 
 .espaciado-palabras {
@@ -19446,6 +19444,7 @@ body > div.page-layout > section.bg-base-color.position-relative {
   }
   .historia-container {
     text-align: center;
+    padding-left: 15px;
   }
   .conoce-mas-prod {
     text-align: center;
