@@ -189,14 +189,14 @@ video {
   padding-right: 15px;
   padding-left: 15px;
 }
-.row {
+/* .row {
   margin-right: -15px;
   margin-left: -15px;
 }
 .row > * {
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 .row.g-0 {
   margin-right: 0;
   margin-left: 0;
@@ -19404,9 +19404,9 @@ body > div.page-layout > section.bg-base-color.position-relative {
   .main-subtitle {
     font-size: 20px;
   }
-  .navbar .container-fluid {
-    background: #d5e9ed;
-  }
+  /* .navbar .container-fluid {
+    background: rgba(213,233,237, 0.1);
+  } */
   .main-container {
     padding-left: 0px !important;
   }
